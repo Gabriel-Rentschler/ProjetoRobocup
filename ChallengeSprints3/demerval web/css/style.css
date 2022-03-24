@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Header{
+    background-color: #0A0A0A;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header a{
+    color: #FED105;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.Header a:hover{
+    color: #F2F2F2;
+}
+
+.Texto {
+    width: 70vw;
+}
+
+.Imagem {
+    width: 30vw;
+}
+h1, h2, h3{
+    color: #FED105;
+}
+
+.Text h2{
+    color: #F2F2F2;
+}
+
+.Cinza {
+    background-color: #212121;
+}
+
+p{
+    color: #F2F2F2;
+    font-size: 1.2rem;
+}
+
+.Stripes{
+    height: 12px;
+    background: linear-gradient(180deg,#ffd200,#997e00 50%,#000 0,#000);
+    background-size: 100% 4px;
+}
+
+.Preto{
+    background-color: #0A0A0A;
+}
+
+.Titulo {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Time{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Time img {
+    border-radius: 50%;
+}
+
+.Btn button {
+    background-color: #FED105;
+    color: #0A0A0A;
+}

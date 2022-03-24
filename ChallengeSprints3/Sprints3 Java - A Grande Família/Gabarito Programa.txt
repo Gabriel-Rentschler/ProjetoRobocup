@@ -1,0 +1,12 @@
+Salas da 1ª lista: 1, 2, 3, 4, 5
+
+Salas da 2ª lista: 3, 6, 9, 12, 15
+
+Salas da 3ª lista: 5, 10, 15, 20, 25
+
+
+Lista única: 1, 3, 5, 2, 6, 10, 9, 15, 4, 12, 20, 25
+
+Minutos para cada sala: 13, 10, 7, 8, 8, 12, 11, 13, 5, 11, 13, 10
+
+Tempo total: 2 horas e 1 minuto
