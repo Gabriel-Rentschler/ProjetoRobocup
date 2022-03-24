@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Robo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header class="Header d-flex p-3">
+        <h1 class="display-10">A Grande Família</h1>
+
+        <div>
+            <a href="#Apresentacao" class="btn">Apresentação</a>
+            <a href="#Investimento" class="btn">Parcerias</a>
+            <a href="#Manual" class="btn">Manual</a>
+            <a href="#Comunicação" class="btn">Comunicação</a>
+            <a href="#Team" class="btn">Team</a>
+        </div>
+    </header>
+
+    <div class="Cinza d-flex" id="Apresentacao">
+        <div class="Texto p-5">
+          <h2>Apresentação</h2>
+          <p>Nossa equipe tem como objetivo expandir o mercado de educação e robótica no país. Tendo em vista a crescente demanda por robótica no mundo todo, dado o contexto em que vivemos atualmente
+            podemos esperar que essa demanda crescerá ainda mais. Com isso em mente decidimos explorar um mercado ainda novo, mas com ótimas promessas. Vendo pela tabela ao lado, sabemos que há um aumento crescente
+            no interesse em uma área nova.
+          </p>
+          <p>Para alcançar nosso objetivo, a empresa decidiu criar um evento para ensinar robótica e fazer com que todas as gerações se interessem pela tecnologia.
+            Com esse incentivo esperamos que crianças e adolescentes possam contribuir positivamente com a tecnologia e aumentar o mercado de robótica.
+            O evento contará com um campeonato de robôs, além de workshops, lojas de peças e oportunidades de estudo com relação a tecnologia e informação.
+          </p>
+        </div>
+        <div class="Imagem p-5">
+          <img src="./image/tabela.png" alt="imagem1 robocup"class="img-fluid">
+        </div>
+    </div>
+
+    <div class="Preto d-flex" id="Investimento">
+      <div class="p-3">
+        <h2>Investimento</h2>
+        <p>Graças a crescente evolução da tecnologia e sua influência no mundo, a demanda por robótica no Brasil vem aumentando exponencialmente. Muitas empresas utilizam de robôs para atender a demanda de sua clientela, o que aumenta também a demanda por profissionais dessa área. O investimento em um evento de robótica educacional acaba sendo vantajoso tanto para
+          quem quer seguir carreira em tecnologia e também para outras pessoas se interessarem sobre.
+        </p>
+      </div>
+        
+      <div class="p-3">
+        <h2>Parcerias</h2>
+        <p>Com o evento, pretendemos criar parcerias relacionadas tanto a educação quanto ao mercado de robótica. Por isso, convidaremos faculdades para participar do evento e promover seus cursos de tecnologia, além de participarem do campeonato de robôs. Além disso, faremos parcerias com lojas e vendedores de ferramentas e peças de robótica, para incentivar os visitantes
+           do evento a desenvolver seus próprios projetos de robótica com o conhecimento adquirido no evento.
+        </p>
+      </div>
+    </div>    
+
+    <div class="Cinza container-fluid">
+        <div class="p-5" id="Manual">
+            <h2>Manual de Instruções</h2>
+            <div class="p-5">
+              <p>Neste manual, ensinaremos as pessoas a montar um robô básico.</p>
+              <h3>Passo 1: Compre as peças, você irá precisar de:</h3>
+              <p> - Arduino Uno</p>
+              <p> - Dois motores para as rodas</p>
+              <p> - Protoboard para montar o circuito</p>
+              <p> - Módulo bluetooth para controlar o robô pelo smartphone</p>
+              <p> - Shield L293D para controlar os motores</p>
+              <p> - Um rodízio para a terceira roda</p>
+              <p> - Baterias para o robô funcionar sem um fio</p>
+              <h3>Passo 2: Monte o robô</h3>
+              <p> Para isso, é necessário uma base para os componentes. Uma base de madeira é o suficiente. Coloque os
+                motores no lado direito e esquerdo da parte traseira da base e os conecte ao Shield L293D. O Shield será
+                então conectado ao protoboard, para depois ser ligado no Arduino. O módulo bluetooth será ligado diretamente
+                no Arduino. O fio GND do motor será ligado na entrada GND do Arduino.
+              </p>
+              <h3>Passo 3: Programação do robô</h3>
+              <p>Para a programação, baixe a IDE do Arduino, que pode ser achado facilmente na internet. Após isso, faça a 
+                programação na IDE, de forma que o programa receba os dados do módulo bluetooth, e traduza eles para os movimentos
+                dos motores no robô. É conveniente programar algum botão de liga e desliga também.
+              </p>
+              <h3>Passo 4: Faça um app para controlar o robô pelo celular</h3>
+              <p>Para isso, existe um site de fácil uso para programação de aplicativos Android chamado App Inventor.
+                Com ele, você pode fazer o celular se conectar ao módulo bluetooth e passar os dados a partir do clique
+                de botões na tela do smartphone.
+              </p>
+            </div>
+            <div class="p-5 d-flex">
+              <div class="p-1 text-center">
+                <img src="./image/hc05.png" alt="imagem1 robocup"class="img-fluid">
+                <p>Módulo Bluetooth HC05</p>
+              </div>
+              <div class="p-1 text-center">
+                <img src="./image/shield.png" alt="imagem1 robocup"class="img-fluid">
+                <p>Shield L293D</p>
+              </div>
+              <div class="p-1 text-center">
+                <img src="./image/arduino.png" alt="imagem1 robocup"class="img-fluid">
+                <p>Arduino UNO</p>
+              </div>
+              <div class="p-1 text-center">
+                <img src="./image/robo1.png" alt="imagem1 robocup"class="img-fluid">
+                <p>Esquema do robô finalizado</p>
+              </div>
+            </div>
+
+            <div class="Stripes"></div>
+
+            <h2>Comunicação</h2>
+            <div class="p-5 text-center" id="Comunicação">
+              <p>
+                Vamos comunicar o evento via redes sociais, esperando ganhar mais visibilidade graças as faculdades que irão participar do evento, além de propagandas curtas nas redes sociais e outras plataformas, como o Youtube.
+                Esperamos ganhar mais visibilidade pelas atrações, principalmente pela competição de robôs e workshops.
+              </p>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="Preto" id="Team">
+      <div class="Text p-5">
+        <h2>Valor Presente Líquido</h2>
+        <div class="Stripes"></div>
+      </div>
+      <div class="p-5 text-center">
+        <img src="./image/calculo.png" alt="imagem1 robocup"class="img-fluid">
+      </div>
+    </div>
+
+    <div class="Preto" id="Team">
+      <div class="Text p-5">
+        <h2>O Time</h2>
+        <div class="Stripes"></div>
+      </div>
+
+      <div class="Time d-flex p-5">
+        <div class="p-1 text-center">
+          <h3>Gabriel Rentschler</h3>
+          <img src="./image/agostinho.png" alt="imagem1 robocup"class="img-fluid">
+          <p>Montagem do robô e análise de tendências da empresa.</p>
+        </div>
+
+        <div class="p-1 text-center">
+          <h3>Gyovanna Oliveira</h3>
+          <img src="./image/bebel.png" alt="imagem1 robocup"class="img-fluid">
+          <p>Interação com clientes e empresas, organização e montagem do evento.</p>
+        </div>
+
+        <div class="p-1 text-center">
+          <h3>Ítalo Vellasco</h3>
+          <img src="./image/tuco.png" alt="imagem1 robocup"class="img-fluid">
+          <p>Interação com clientes e empresas, organização e montagem do evento.</p>
+        </div>
+
+        <div class="p-1 text-center">
+          <h3>Lucas Piran</h3>
+          <img src="./image/lineu.png" alt="imagem1 robocup"class="img-fluid">
+          <p>Montagem do robô e coleta de dados para a empresa.</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
